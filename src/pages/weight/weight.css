@@ -1,0 +1,13 @@
+.unit {
+  color: grey;
+}
+
+#weight-input {
+  max-width: 120px;
+  margin-right: 5px;
+  text-align: right;
+}
+
+#weight-button {
+  margin-bottom: 0;
+}

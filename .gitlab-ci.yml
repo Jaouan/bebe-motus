@@ -1,0 +1,17 @@
+image: rambabusaravanan/firebase
+
+stages:
+  - deploy
+
+cache:
+  paths:
+    - node_modules/
+  key: "$CI_BUILD_REPO"
+
+deploy-prod:
+  stage: deploy
+  only:
+    - main
+  script:
+    - yarn
+    - yarn build

@@ -1,0 +1,120 @@
+body {
+  background: #d7ffd3;
+  text-align: center;
+  font-family: "Google Sans", sans-serif;
+  padding: 20px;
+}
+
+#root {
+  max-width: 800px;
+  margin: auto;
+  position: relative;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.page {
+  position: absolute;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.page-out {
+  opacity: 0;
+}
+.page-in {
+  opacity: 1;
+}
+
+h1 {
+  font-size: 2em;
+}
+h2 {
+  margin-top: 0;
+}
+
+input {
+  width: 7em;
+  font-size: 2em;
+  padding: 20px;
+  border: 0;
+  background: #ffffffbb;
+  border-bottom: 2px #8bc34a solid;
+}
+button {
+  user-select: none;
+  font-size: 1.5em;
+  cursor: pointer;
+  width: auto;
+  border: 0;
+  background: none;
+  box-shadow: none;
+  border-radius: 0px;
+  background: #7aaf3e;
+  border-radius: 5px;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  transition: background 0.4s ease-in-out;
+  margin: 50px;
+  outline: 0;
+}
+button:hover,
+button:focus {
+  background: #9fe055;
+  outline: 0;
+}
+button:active {
+  background: #608833;
+  outline: 0;
+}
+
+img {
+  width: 50px;
+  height: 150px;
+}
+img.big {
+  width: 150px;
+  height: 150px;
+  margin: 50px;
+}
+
+button:disabled {
+  background: lightgray;
+}
+
+.how-to-play {
+  width: auto;
+  text-align: left;
+  font-size: 1em;
+  padding: 20px;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+  display: inline-block;
+}
+
+.hide {
+  opacity: 0;
+  cursor: auto;
+}
+.show {
+  opacity: 1;
+}
+
+.label {
+  font-size: 1.2em;
+}
+.hint {
+  font-size: 0.9em;
+  font-style: italic;
+  color: grey;
+  margin-bottom: 40px;
+}
+.error {
+  margin-top: 20px;
+  display: block;
+  color: #e53935;
+  font-weight: 700;
+  transition: opacity 0.5s ease-in-out;
+}
